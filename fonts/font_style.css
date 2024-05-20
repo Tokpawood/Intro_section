@@ -1,0 +1,25 @@
+/* 1est Font */
+
+@font-face {
+    font-family: "Epilogue-Bold";
+    src: url('Epilogue-Bold.ttf');
+}
+
+/* 2nd Font */
+
+@font-face {
+    font-family: "Epilogue-Regular";
+    src: url('Epilogue-Regular.ttf');
+}
+
+/* 3th Font */
+@font-face {
+    font-family: "Epilogue-SemiBold";
+    src: url('Epilogue-SemiBold.ttf');
+}
+
+/* 2nd Font */
+@font-face {
+    font-family: "Epilogue-Variable";
+    src: url('Epilogue-VariableFont_wght.ttf');
+}
