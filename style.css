@@ -77,15 +77,17 @@
     height: 90%;
 }
 .heading{
-    font-size: 5rem;
+    font-size: 3em;
     font-weight: 500, 700;
     line-height: 110px;
     font-family: "Epilogue-Bold";
     margin-bottom: 4rem;
+    margin-top: -1;
 }
 p{
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Epilogue-Regular";
+    line-height: 30px;
 }
 #learnmore{
     font-size: 25px;
@@ -95,7 +97,7 @@ p{
     color: white;
     background-color: hsl(0, 0%, 0%);
     border-radius: 18px;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
     cursor: pointer;
     transition: 0.5;
 }
@@ -106,13 +108,55 @@ p{
 }
 .a{
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 .box-img{
-    margin-top: 10rem;
+    margin-top: 8rem;
+    width: 100%;
 }
 .box-img >img{
-    margin-right: 55px;
-    size: 28px;
+    margin-right: 18px;
+    size: 18px;
     cursor: pointer;
 }
+
+/* -- Responsive design-- */
+
+@media only screen and (min-width: 1440px){
+   .navbar{
+    margin-left: 8rem;
+   }
+   .navbarItem2{
+    margin-left: 50rem;
+   }
+
+   .block1{
+    margin-left: 19rem;
+    margin-top: 5rem;
+   }
+   .heading{
+    width: 78%;
+    line-height: 110px;
+   }
+   .box-img >img{
+    margin-right: 55px;
+   }
+}
+@media only screen and (max-width: 1439px){
+    .navbar{
+     margin-left: 5rem;
+    }
+    .navbarItem2{
+     margin-left: 22rem;
+    }
+    .heading{
+        width: 110%;
+        line-height: 110px;
+    }
+    .block1{
+     margin-left: 16rem;
+     margin-top: 3rem;
+    }
+    
+ }
+ 
